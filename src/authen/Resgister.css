@@ -1,0 +1,279 @@
+.register_content {
+    min-height: 100vh; /* Sử dụng 100vh để đảm bảo phần nội dung hiển thị trên toàn bộ màn hình */
+    display: flex;
+    flex-direction: column; /* Hiển thị các phần tử con theo chiều dọc */
+}
+
+.register_navbar {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    display: flex;
+    background-color: #f8f7f7;
+
+}
+
+.register_logo {
+    position: relative;
+    width: 300px;
+    height: 42px;
+    top: 22px;
+    left: 100px;
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-left: 100px;
+}
+
+.register_logo_icon {
+    position: relative;
+    width: 180px;
+    height: 42px;
+
+}
+
+.register_logo_img {
+    position: relative;
+    width: 100px;
+    height: 80px;
+    bottom: 15px;
+    border-radius: 50%;
+}
+
+.register_logo_register {
+    position: relative;
+    left: 10px;
+}
+
+.register_logo_content {
+    position: relative;
+    top: 10px;
+    font-weight: 500;
+    color: black;
+}
+
+.help_navbar {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    top: 25px;
+    left: 50%;
+}
+
+.help_img {
+    position: relative;
+    top: 10px
+}
+
+.help_content {
+    text-decoration: none;
+    color: #cc61cb;
+    font-weight: 400;
+}
+.help_content:hover{
+    color: black;
+}
+
+.register_background {
+    height: 600px;
+    background-image: linear-gradient(0, #f1abcf, #cc61cb);
+    position: relative;
+    top: 90px;
+
+}
+
+
+.register_footer {
+    height: 300px;
+    background-color: #f8f7f7;
+    position: relative;
+    bottom: 10px;
+
+}
+
+.background_content {
+    height: 600px;
+    width: 70%;
+    margin: 0 15%;
+    display: flex;
+}
+
+.background_content_img {
+    height: 600px;
+    width: 55%;
+}
+
+.background_img {
+    height: 350px;
+}
+
+.img_background {
+    position: relative;
+    top: 50px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.background_content_content {
+    height: 250px;
+}
+
+.content {
+    height: 100%;
+}
+
+.content_letter {
+    position: relative;
+    top: 10px;
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--whitre-color);
+}
+
+.content_letter_item {
+    position: relative;
+    bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--whitre-color);
+}
+
+.background_register {
+    height: 700px;
+    width: 45%;
+    position: relative;
+
+
+}
+
+.form_register {
+    height: 450px;
+    width: 100%;
+    position: relative;
+    background-color: #f8f7f7;
+    top: 5px;
+    border-radius: 4px;
+}
+
+.input_form {
+    position: relative;
+
+}
+
+.input_register {
+    margin: 20px 0 0;
+}
+
+.input_item {
+    width: 80%;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.input_content {
+    position: relative;
+    bottom: -10px;
+    right: 135px;
+}
+
+.input_letter {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.input_btn {
+    position: relative;
+    width: 100px;
+    top: 25px;
+    left: 35%;
+}
+
+.btn_btn {
+    width: 100px;
+    height: 35px;
+    background-color: #cc61cb;
+    color: var(--whitre-color);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.btn_btn:hover{
+    background-color: lightcoral;
+}
+
+.input_login {
+    position: relative;
+    top: 15px;
+}
+
+.input_con_content {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.btn_btn_login_fb {
+    width: 150px;
+    height: 35px;
+    position: relative;
+    bottom: 80px;
+    right: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn_btn_login_fb:hover{
+    background-color: #f1abcf;
+}
+
+.input_con {
+    position: relative;
+    top: 15px;
+}
+
+
+.btn_btn_login {
+    width: 150px;
+    height: 35px;
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+.btn_btn_login:hover{
+    background-color: #f1abcf;
+}
+.input_context{
+    position: relative;
+    top: 70px;
+}
+.input_login_login{
+    position: relative;
+    bottom: 40px;
+    left: 70%;
+    text-decoration: none;
+    color: black;
+}
+.input_login_login:hover{
+    color: #cc61cb;
+}
+
+.input_type{
+    position: relative;
+    bottom: 64px;
+}
+.type_content{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.type_content:hover{
+    color: #cc61cb;
+}
+.text-danger{
+    color: red;
+    font-size: 12px;
+}
+
+
